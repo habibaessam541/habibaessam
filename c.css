@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;}
+    .header{
+        height:100vh;
+        width: 100%;
+    background-color: black;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+       
+        box-sizing:border-box;
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-evenly;
+        align-self: flex-end;
+        padding-left: 800px;
+        
+    }
+        nav ul li{ 
+            list-style: none;
+            display: inline-block;
+            padding:8px 10px;
+            letter-spacing: 1PX;
+            position: relative;
+        } 
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(80, 15, 15);
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav ul li::after{
+            content: '';
+            width: 0%;
+            height:2px;
+            background: wheat;
+            display: block;
+            margin: auto;
+            transition: 0.55;
+        }
+        nav ul li:hover::after{
+            width: 100%;
+        }
+        .text-box{
+            width="90%"
+            color:red;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            text-align:center;
+            
+        }
+        .text-box h1{
+            font-size: 62px ;
+            color: rgb(173, 17, 17);
+            ;
+        }
+        .text-box p{
+            margin: 10px 0 40px;
+            font-size: 20px;
+            color:white;
+            background-color: black;
+        ;
+        }
+        .button{
+            display: inline-block;
+            text-decoration:none ;
+            color: white;
+            border: 3px solid rgb(204, 129, 28);
+            padding: 12px 34px;
+            font-size:18px;
+            background:transparent;
+            position:relative;
+            cursor:pointer;
+            letter-spacing: 2px;
+        }
+        .button:hover{
+            border: 9px solid rgb(204, 129, 28) ;
+            background:rgb(204, 129, 28) ;
+            font-size: 20px;
+            transition: 1s;
+        }
+        .images,.images2{
+            margin: 60px 1049px;
+        }
+        /*----- winner -----*/
+        section{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 200px;
+        }
+    section h1{
+            font-size: 36px;
+            font-weight: 600; 
+        padding-leftt: 1000px;}
+        section p{
+            color: red;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            padding: 100px;
+            al
+
+        }
